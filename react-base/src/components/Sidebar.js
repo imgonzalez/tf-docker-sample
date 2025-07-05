@@ -21,6 +21,9 @@ const Sidebar = () => {
       <Link className="menu-item" to="/deploy">
         Deploy Changes
       </Link>
+      <Link className="menu-item" to="/color">
+        Random Color
+      </Link>
     </Menu>
   );
 };

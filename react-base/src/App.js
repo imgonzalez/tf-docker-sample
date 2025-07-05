@@ -6,6 +6,7 @@ import ReadmePage from './pages/ReadmePage';
 import TerraformPage from './pages/TerraformPage';
 import MenuPage from './pages/MenuPage';
 import DeployPage from './pages/DeployPage';
+import ColorPage from './pages/ColorPage';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
               <Route path="/terraform" element={<TerraformPage />} />
               <Route path="/menu" element={<MenuPage />} />
               <Route path="/deploy" element={<DeployPage />} />
+              <Route path="/color" element={<ColorPage />} />
             </Routes>
           </div>
         </div>

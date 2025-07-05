@@ -80,6 +80,9 @@ const Sidebar = () => {
       <Link className="menu-item" to="/page2">
         Página 2
       </Link>
+      <Link className="menu-item" to="/color">
+        Random Color
+      </Link>
       {/* Añadir más enlaces según sea necesario */}
     </Menu>
   );
