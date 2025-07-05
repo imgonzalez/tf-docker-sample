@@ -1,0 +1,35 @@
+# Archivos y directorios de Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.*.backup
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Directorios de proveedores descargados manualmente
+terraform-plugins/
+
+# Archivos de configuración local
+.terraformrc
+terraform.rc
+
+# Archivos de respaldo de editores
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Archivos de registro
+*.log
+
+# Archivos de credenciales
+*.pem
+*.key
+*.pub
+credentials.json

@@ -1,0 +1,98 @@
+.markdown-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.markdown-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #0066cc;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.markdown-container h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #0066cc;
+}
+
+.markdown-container h3 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.markdown-container p {
+  margin-bottom: 1.2rem;
+}
+
+.markdown-container ul, .markdown-container ol {
+  margin-bottom: 1.2rem;
+  padding-left: 2rem;
+}
+
+.markdown-container li {
+  margin-bottom: 0.5rem;
+}
+
+.markdown-container a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.markdown-container a:hover {
+  text-decoration: underline;
+}
+
+.markdown-container code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.code-block {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  overflow: auto;
+}
+
+.code-block pre {
+  padding: 1rem;
+  margin: 0;
+}
+
+.code-block code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: transparent;
+  padding: 0;
+  white-space: pre;
+  display: block;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .markdown-container {
+    padding: 20px 15px;
+  }
+  
+  .markdown-container h1 {
+    font-size: 2rem;
+  }
+  
+  .markdown-container h2 {
+    font-size: 1.5rem;
+  }
+  
+  .markdown-container h3 {
+    font-size: 1.2rem;
+  }
+}
